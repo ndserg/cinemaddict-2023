@@ -89,17 +89,6 @@ const renderAfterLoad = (response) => {
 apiWithProvider.getMovies()
   .then((movies) => renderAfterLoad(movies));
 
-window.addEventListener(`load`, () => {
-  if (`serviceWorker` in navigator) {
-    navigator.serviceWorker.register(`/sw.js`)
-    .then(() => {
-      // Действие, в случае успешной регистрации ServiceWorker
-    }).catch(() => {
-      // Действие, в случае ошибки при регистрации ServiceWorker
-    });
-  }
-});
-
 window.addEventListener(`online`, () => {
   document.title = document.title.replace(` [offline]`, ``);
 

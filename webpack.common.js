@@ -13,14 +13,4 @@ module.exports = {
       scriptLoading: `module`
     }),
   ],
-  devServer: {
-    static: {
-      directory: path.resolve(__dirname, `public`),
-    },
-    open: true,
-    port: 9000,
-  },
-  watchOptions: {
-    ignored: /node_modules/,
-  },
 };
