@@ -30,4 +30,6 @@ __[Проект On-Line](https://cinemaddict.dendev.ru)__
 *   Запуск проекта локальнов в Dev режиме: `npm start`
 
 ### Скриншоты
-![Скриншот Главная](/screenshots/keksobooking.jpg)
+![Скриншот Главная](/screenshots/cinemaddict-1.jpg)
+![Скриншот страница фильма](/screenshots/cinemaddict-2.jpg)
+![Скриншот статистика](/screenshots/cinemaddict-3.jpg)
