@@ -9,7 +9,7 @@ __[Проект On-Line](https://cinemaddict.dendev.ru)__
 
 #### Используемые технологии
 *   Синтаксис ES6
-*   Мудули JS
+*   Модули JS
 *   Работа с DOM
 *   Сборка Webpack
 
