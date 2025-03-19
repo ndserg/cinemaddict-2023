@@ -12,8 +12,8 @@ import PageController from "./controllers/page-controller.js";
 import StatsComponent from "./components/stats.js";
 import {RenderPosition, render} from "./utils/render.js";
 
-const AUTHORIZATION = `Basic dg91dfgfsdg98fd6)^*;lh=jksfD`;
-const END_POINT = `https://16.ecmascript.pages.academy/cinemaddict`;
+const AUTHORIZATION = `Basic dg91dfgfsdg98fd6lh=jksfD`;
+const END_POINT = `https://18.ecmascript.htmlacademy.pro/cinemaddict`;
 
 const MOVIES_STORE_PREFIX = `cinemaddict-movies`;
 const MOVIES_STORE_VER = `v1`;
